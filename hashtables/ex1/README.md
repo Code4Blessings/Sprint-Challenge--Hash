@@ -2,8 +2,27 @@
 
 Given a package with a weight limit `limit` and a list `weights` of item
 weights, implement a function `get_indices_of_item_weights` that finds
-two items whose sum of weights equals the weight limit `limit`. Your
-function will return an instance of an `Answer` tuple that has the
+two items whose sum of weights equals the weight limit `limit`.
+
+limit = 20
+
+index     weights
+------    --------
+0              4,
+1              6, 
+2              10, 
+3              15, 
+4              16 
+
+key = index
+weights = []
+
+how do you find the index of 2 sets of numbers that equal the limit?
+1. Write a code that lists the items in an array
+limit = [0: 4, 1: 6]
+
+
+ Your function will return an instance of an `Answer` tuple that has the
 following form:
 
 ```

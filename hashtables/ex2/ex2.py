@@ -10,5 +10,8 @@ def reconstruct_trip(tickets, length):
     """
     YOUR CODE HERE
     """
+   #Create a dictionary called ticket_dict()
+   tickets = dict(self.source=)
+   #Make 
 
     return route
