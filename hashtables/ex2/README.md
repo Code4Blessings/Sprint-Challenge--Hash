@@ -62,3 +62,6 @@ function will always be handed a valid ticket chain as input.
   the destination is the value. Then, when constructing the entire
   route, the `i`th location in the route can be found by checking the
   hash table for the `i-1`th location.
+
+  ticket_dict = dict()
+  
